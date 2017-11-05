@@ -1,0 +1,92 @@
+---
+- !ruby/object:Order
+  book: &11 !ruby/object:Book
+    title: Собор
+    author: &1 !ruby/object:Author
+      name: Oles Honchar
+      biography: about Honchar
+  reader: &4 !ruby/object:Reader
+    name: Max T-rex
+    email: max@2921@gmail.com
+    city: 
+    street: 
+    house: 
+  date: 2017-11-05 16:58:22.483315345 +02:00
+- !ruby/object:Order
+  book: !ruby/object:Book
+    title: За миг счастья
+    author: *1
+  reader: &3 !ruby/object:Reader
+    name: Vera Zubrova
+    email: vera1@gmail.com
+    city: 
+    street: 
+    house: 
+  date: 2017-11-05 16:58:22.483319475 +02:00
+- !ruby/object:Order
+  book: &2 !ruby/object:Book
+    title: Contra spev spero!
+    author: &5 !ruby/object:Author
+      name: Lesya Ukrainka
+      biography: about Ukrainka
+  reader: &8 !ruby/object:Reader
+    name: Aleks Tkach
+    email: alekstk@gmail.com
+    city: 
+    street: 
+    house: 
+  date: 2017-11-05 16:58:22.483321685 +02:00
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2017-11-05 16:58:22.483323273 +02:00
+- !ruby/object:Order
+  book: *2
+  reader: *4
+  date: 2017-11-05 16:58:22.483324659 +02:00
+- !ruby/object:Order
+  book: &6 !ruby/object:Book
+    title: Боярыня
+    author: *5
+  reader: *3
+  date: 2017-11-05 16:58:22.483325977 +02:00
+- !ruby/object:Order
+  book: *6
+  reader: *4
+  date: 2017-11-05 16:58:22.483327277 +02:00
+- !ruby/object:Order
+  book: &7 !ruby/object:Book
+    title: Fables and Aphorisms
+    author: &9 !ruby/object:Author
+      name: Gregory Skovoroda
+      biography: about Skovoroda
+  reader: *3
+  date: 2017-11-05 16:58:22.483328480 +02:00
+- !ruby/object:Order
+  book: *7
+  reader: *4
+  date: 2017-11-05 16:58:22.483354346 +02:00
+- !ruby/object:Order
+  book: *7
+  reader: *8
+  date: 2017-11-05 16:58:22.483355947 +02:00
+- !ruby/object:Order
+  book: &10 !ruby/object:Book
+    title: Povna akademichna zbirka tvoriv
+    author: *9
+  reader: *3
+  date: 2017-11-05 16:58:22.483357367 +02:00
+- !ruby/object:Order
+  book: *10
+  reader: *4
+  date: 2017-11-05 16:58:22.483358648 +02:00
+- !ruby/object:Order
+  book: !ruby/object:Book
+    title: Сочинения в двух томах
+    author: *9
+  reader: *4
+  date: 2017-11-05 16:58:22.483359873 +02:00
+- !ruby/object:Order
+  book: *11
+  reader: *3
+  date: 2017-11-05 16:58:22.483361171 +02:00

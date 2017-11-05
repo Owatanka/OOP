@@ -1,0 +1,13 @@
+---
+- !ruby/object:Author
+  name: Oles Honchar
+  biography: about Honchar
+- !ruby/object:Author
+  name: Lesya Ukrainka
+  biography: about Ukrainka
+- !ruby/object:Author
+  name: Gregory Skovoroda
+  biography: about Skovoroda
+- !ruby/object:Author
+  name: Taras Schevchenko
+  biography: about Schevchenko

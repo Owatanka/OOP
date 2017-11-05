@@ -1,0 +1,39 @@
+---
+- !ruby/object:Book
+  title: Собор
+  author: &1 !ruby/object:Author
+    name: Oles Honchar
+    biography: about Honchar
+- !ruby/object:Book
+  title: За миг счастья
+  author: *1
+- !ruby/object:Book
+  title: Contra spev spero!
+  author: &2 !ruby/object:Author
+    name: Lesya Ukrainka
+    biography: about Ukrainka
+- !ruby/object:Book
+  title: На крыльях песен
+  author: *2
+- !ruby/object:Book
+  title: Боярыня
+  author: *2
+- !ruby/object:Book
+  title: Fables and Aphorisms
+  author: &3 !ruby/object:Author
+    name: Gregory Skovoroda
+    biography: about Skovoroda
+- !ruby/object:Book
+  title: Povna akademichna zbirka tvoriv
+  author: *3
+- !ruby/object:Book
+  title: Сочинения в двух томах
+  author: *3
+- !ruby/object:Book
+  title: Kobzar
+  author: &4 !ruby/object:Author
+    name: Taras Schevchenko
+    biography: about Schevchenko
+- !ruby/object:Book
+  title: Gamaliya
+  author: *4

@@ -1,0 +1,19 @@
+---
+- !ruby/object:Reader
+  name: Max T-rex
+  email: max@2921@gmail.com
+  city: 
+  street: 
+  house: 
+- !ruby/object:Reader
+  name: Vera Zubrova
+  email: vera1@gmail.com
+  city: 
+  street: 
+  house: 
+- !ruby/object:Reader
+  name: Aleks Tkach
+  email: alekstk@gmail.com
+  city: 
+  street: 
+  house: 
