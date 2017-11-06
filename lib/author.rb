@@ -9,6 +9,13 @@ class Author
   def to_s
     "#{name}"
   end
-
+  
+  def ==(other)
+    if other.is_a? Book
+      title == other.title && author == other.author
+    else
+      false
+    end
+  end
  
 end
