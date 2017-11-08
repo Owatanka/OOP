@@ -15,7 +15,7 @@ class Library
   end
 
   def who_often_takes_the_book
-    orders.group_by(&:reader).max {|a,b| a[1].size <=> a[1].size}[0]
+    orders.group_by(&:reader).max {|a,b| b[1].size <=> a[1].size}[0]
   end
 
   def most_popular_book
