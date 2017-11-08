@@ -7,14 +7,6 @@ class Reader
         name, email, city, street, house
   end
 
-  def ==(other)
-    if other.is_a? Reader
-      name == other.name && email == other.email
-    else
-      false
-    end
-  end
-
   def to_s
     result = "#{name}, email: #{email}"
     unless city.is_a?(NilClass)
