@@ -9,14 +9,6 @@ class Order
         book, reader, date
   end
 
-  def ==(other)
-    if other.is_a? Order
-      book == other.book && reader == other.reader
-    else
-      false
-    end
-  end
-
   def to_s
     "#{reader.name} takes #{book} #{date}"
   end
